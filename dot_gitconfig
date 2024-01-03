@@ -1,0 +1,8 @@
+[init]
+	defaultBranch = main
+[user]
+	name = fumiya.kondo
+	email = fumiya.kondo.1128@gmail.com
+[alias]
+	ss = status
+	br = branch
