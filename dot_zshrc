@@ -40,3 +40,10 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 zinit light zdharma/history-search-multi-word
 zinit light zdharma-continuum/fast-syntax-highlighting
+
+# pyenv
+if [[ ! -d $HOME/.pyenv ]]; then
+    export PYENV_ROOT="$HOME/.pyenv"
+    [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init -)"
+fi
