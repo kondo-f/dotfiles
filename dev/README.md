@@ -20,6 +20,7 @@ docker run --rm -it \
 
 ```
 docker run --rm -it \
+    --privileged \
     -v ${PWD}:/root/.local/share/chezmoi:ro \
     -v /mnt/wslg:/mnt/wslg \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
