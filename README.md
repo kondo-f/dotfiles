@@ -2,7 +2,13 @@
 # Install
 
 ```
-sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ${HOME}/.local/bin init kondo-f
+sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ${HOME}/.local/bin init kondo-f --apply
+```
+
+## Work
+
+```
+IS_WORK=true sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ${HOME}/.local/bin init kondo-f --apply
 ```
 
 # Install Font (For Ubuntu)
