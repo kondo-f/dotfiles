@@ -2,25 +2,29 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "agents": {
     "sisyphus": {
-      "model": "azure/gpt-5.4"
+      "model": "azure/Kimi-K2.5"
     },
     "metis": {
-      "model": "azure/gpt-5.4"
+      "model": "azure/gpt-5.4",
+      "variant": "high"
     },
     "prometheus": {
-      "model": "azure/gpt-5.4"
+      "model": "azure/gpt-5.4",
+      "variant": "high"
     },
     "atlas": {
-      "model": "azure/gpt-5.4"
+      "model": "azure/Kimi-K2.5"
     },
     "hephaestus": {
       "model": "azure/gpt-5.3-codex"
     },
     "oracle": {
-      "model": "azure/gpt-5.4"
+      "model": "azure/gpt-5.4",
+      "variant": "high"
     },
     "momus": {
-      "model": "azure/gpt-5.4"
+      "model": "azure/gpt-5.4",
+      "variant": "xhigh"
     },
     "explore": {
       "model": "azure/gpt-5.4-nano"
@@ -29,7 +33,11 @@
       "model": "azure/gpt-5.4-nano"
     },
     "multimodal-looker": {
-      "model": "azure/gpt-5.4"
+      "model": "azure/gpt-5.4",
+      "variant": "medium"
+    },
+    "sisyphus-junior": {
+      "model": "azure/Kimi-K2.5"
     }
   },
   "categories": {
@@ -37,7 +45,8 @@
       "model": "azure/gpt-5.4"
     },
     "ultrabrain": {
-      "model": "azure/gpt-5.4"
+      "model": "azure/gpt-5.4",
+      "variant": "xhigh"
     },
     "deep": {
       "model": "azure/gpt-5.3-codex"
@@ -49,13 +58,15 @@
       "model": "azure/gpt-5.4-nano"
     },
     "unspecified-high": {
-      "model": "azure/gpt-5.4"
+      "model": "azure/gpt-5.4",
+      "variant": "high"
     },
     "unspecified-low": {
-      "model": "azure/gpt-5.3-codex"
+      "model": "azure/gpt-5.3-codex",
+      "variant": "medium"
     },
     "writing": {
-      "model": "azure/gpt-5.4"
+      "model": "azure/Kimi-K2.5"
     }
   }
 }
