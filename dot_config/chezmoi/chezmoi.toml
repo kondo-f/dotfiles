@@ -1,3 +1,9 @@
+encryption = "age"
+
 [edit]
     command = "code"
     args = ["--wait"]
+
+[age]
+    identity = "~/.config/chezmoi/age_key.txt"
+    recipient = "age15pfe406fz5hjakzv44stj7cpju8f7hdm3zx055cqfzldsxxj8fjqvzn5ss"
