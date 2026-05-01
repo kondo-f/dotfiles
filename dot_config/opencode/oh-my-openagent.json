@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "agents": {
     "sisyphus": {
-      "model": "azure/Kimi-K2.5"
+      "model": "azure/kimi-k2.5"
     },
     "metis": {
       "model": "azure/gpt-5.4",
@@ -13,7 +13,7 @@
       "variant": "high"
     },
     "atlas": {
-      "model": "azure/Kimi-K2.5"
+      "model": "azure/kimi-k2.5"
     },
     "hephaestus": {
       "model": "azure/gpt-5.3-codex"
@@ -37,7 +37,7 @@
       "variant": "medium"
     },
     "sisyphus-junior": {
-      "model": "azure/Kimi-K2.5"
+      "model": "azure/kimi-k2.5"
     }
   },
   "categories": {
@@ -66,7 +66,7 @@
       "variant": "medium"
     },
     "writing": {
-      "model": "azure/Kimi-K2.5"
+      "model": "azure/kimi-k2.5"
     }
   }
 }
