@@ -17,6 +17,7 @@ load_if_exists "${HOME}/.aliases"
 load_if_exists "${HOME}/.env"
 load_if_exists "${HOME}/.secret"
 load_if_exists "${HOME}/.nvm/nvm.sh"
+load_if_exists "${NVM_DIR}/bash_completion"
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
