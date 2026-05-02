@@ -8,7 +8,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ${HOME}/.local/bin init kondo-f --app
 ## Work
 
 ```
-IS_WORK=true sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ${HOME}/.local/bin init kondo-f --apply
+CHEZMOI_IS_WORK=true sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ${HOME}/.local/bin init kondo-f --apply
 ```
 
 # Install Font (For Ubuntu)
@@ -43,7 +43,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 ```
 
 ```sh
-nvm install --lts 
+nvm install --lts
 ```
 
 ## Opencode
