@@ -1,8 +1,7 @@
 encryption = "age"
 
 [edit]
-    command = "code"
-    args = ["--wait"]
+    command = "nano"
 
 [age]
     identity = "~/.config/chezmoi/age_key.txt"

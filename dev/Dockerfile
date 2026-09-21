@@ -10,7 +10,8 @@ RUN sed -i.bak -E '/^URIs:/ { \
         curl \
         vim \
         zsh \
-        git
+        git \
+        nano
 
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh \
  && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
